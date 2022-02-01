@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SlideshowV2</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Road+Rage&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body id="body">
+
+    <div class="container">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="slideshow.html">Galerie</a>
+            <a href="steckbrief.html">Steckbrief</a>
+        </nav>
+    </div>
+
+        <h3>BILDER VON LIEBLINGS JANA</h3>
+
+        <div id="collage">
+            <img class="out" id="pic1" src="img/img1.png" onclick="changeleft(), changeleft()">
+            <img class="second" id="pic2" src="img/img2.png" onclick="changeleft()">
+            <img class="middle" id="pic3" src="img/img3.png">
+            <img class="second" id="pic4" src="img/img4.png" onclick="changeleft()">
+            <img class="out" id="pic5" src="img/img5.png" onclick="changeleft(), changeleft()">
+        </div>
+        <div id="arrow">
+            <img id="left" src="./img/pfeilLinks.png" onclick="changeleft()">
+            <img id="right" src="./img/pfeilRechts.png" onclick="changeright()">
+        </div>
+
+</body>
+
+</html>
